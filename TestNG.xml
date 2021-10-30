@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="automation-classplus-store">
+	<parameter name="browser" value="Chrome" />
+	<parameter name="siteURL"
+		value="https://web.classplusapp.com/login" />
+	<parameter name="orgCode" value="Learn" />
+	<parameter name="mobileNumber" value="9711153079" />
+	<parameter name="emailAddress" value="Demo1@Demo.com" />
+	<listeners>
+		<listener class-name="com.store.util.TestListener" />
+	</listeners>
+	<test name="classplus store automation">
+		
+		<classes>
+		
+			<class name="com.store.test.ClassplusLoginTest" />
+ 			 	
+	</classes>
+	</test>
+</suite>
