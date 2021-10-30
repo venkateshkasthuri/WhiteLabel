@@ -12,7 +12,7 @@ public class ClassplusLoginPage extends BaseClassplusAutomationPage {
 	private WebElement orgCode;
 
 	@FindBy(xpath = "//input[@class='accountLogin-input']")
-	private WebElement orgCode1;
+	private WebElement orgCode2;
 
 	@FindBy(xpath = "//input[@class='accountLogin-input accountLogin-input-mobile']")
 	private WebElement loginInput;
